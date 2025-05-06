@@ -1,0 +1,16 @@
+.logo-link {
+  text-decoration: none;
+  color: black;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo h3 {
+  font-size: 21px;
+  font-weight: 700;
+  margin-top: 15px;
+}

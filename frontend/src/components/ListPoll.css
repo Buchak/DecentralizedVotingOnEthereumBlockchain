@@ -1,0 +1,31 @@
+.check-mark {
+  width: 20px;
+  height: 20px;
+}
+
+.load-more-container {
+  display: flex;
+  justify-content: center;
+  margin: 2rem 0;
+}
+
+.btn-load-more {
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #fff;
+  background: linear-gradient(to right, #8000f9, #ffc404);
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.btn-load-more:hover {
+  background: linear-gradient(to right, #6100bc, #ac8400);
+  transform: translateY(-2px);
+}
+
+.btn-load-more:active {
+  transform: translateY(0);
+}
